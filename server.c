@@ -10,7 +10,7 @@
 #define PORT 8080
 #define SA struct sockaddr
 
-// Function designed for chat between client and server.
+// chat between client and server.
 void func(int sockfd, int index)
 {
 	char buff[MAX];
@@ -73,7 +73,7 @@ int main()
 		printf("Server listening..\n");
 	len = sizeof(cli);
 
-	// Accept the data packet from client and verification
+	// accept data packet
 	connfd = accept(sockfd, (SA*)&cli, &len);
 	if (connfd < 0) {
 		printf("Server acccept failed...\n");
