@@ -1,0 +1,8 @@
+Instructions:
+
+In a linux environment,
+Compile server.c file using "make server" and compile client.c file using "make client".
+Then run server using "./server" and open another terminal and run the client using "./client".
+The server will establish a connection and will prompt you for a message to pass along.
+Enter a message and end it with the "Enter" key.
+The message will appear on the client program.
